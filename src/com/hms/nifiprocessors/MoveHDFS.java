@@ -45,7 +45,7 @@ import org.apache.nifi.processors.hadoop.AbstractHadoopProcessor;
 import org.apache.nifi.util.StopWatch;
 
 /**
- * This processor renames files on HDFS.
+ * This processor renames files on HDFS. Release 1.
  */
 @Tags({"hadoop", "HDFS", "put", "move", "filesystem", "restricted", "moveHDFS"})
 @CapabilityDescription("Rename existing files or a directory of files (non-recursive) on Hadoop Distributed File System (HDFS).")
